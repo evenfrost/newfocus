@@ -1,0 +1,35 @@
+.section-hiring {
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -o-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  background-color: rgba(0,0,0,0.2);
+  color: #fff;
+  position: relative;
+}
+.section-hiring:after {
+  background-image: url("/images/backgrounds/hiring.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.hiring-list {
+  padding: 0;
+}
+.hiring-list li {
+  margin: 5px 0;
+}
+.hiring-list .subtitle-section:before {
+  content: '—';
+  display: inline;
+  margin-right: 10px;
+}

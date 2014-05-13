@@ -1,0 +1,24 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/styles/vendor/normalize.css/normalize.css')
+        //- link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Lato:300,700')
+        //- link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Oswald:700')
+
+        link(rel='stylesheet', href='/styles/core/common.css')
+        link(rel='stylesheet', href='/styles/core/sections/header.css')
+        link(rel='stylesheet', href='/styles/core/sections/clients.css')
+        link(rel='stylesheet', href='/styles/core/sections/about.css')
+        link(rel='stylesheet', href='/styles/core/sections/services.css')
+        link(rel='stylesheet', href='/styles/core/sections/contact.css')
+        link(rel='stylesheet', href='/styles/core/sections/hiring.css')
+        link(rel='stylesheet', href='/styles/core/sections/team.css')
+        link(rel='stylesheet', href='/styles/core/sections/footer.css')
+
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    body
+        block content
+
+        script(src='/scripts/core/common.js')
+

@@ -1,0 +1,83 @@
+@font-face
+  font-family 'Lato'
+  font-style normal
+  font-weight 300
+  src local('Lato Light'), local('Lato-Light'), url('http://themes.googleusercontent.com/static/fonts/lato/v7/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff') format('woff')
+
+@font-face
+  font-family 'Lato'
+  font-style normal
+  font-weight 700
+  src local('Lato Bold'), local('Lato-Bold'), url('http://themes.googleusercontent.com/static/fonts/lato/v7/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff') format('woff')
+
+@font-face
+  font-family 'Oswald'
+  font-style normal
+  font-weight 700
+  src local('Oswald Bold'), local('Oswald-Bold'), url('http://themes.googleusercontent.com/static/fonts/oswald/v8/bH7276GfdCjMjApa_dkG6bO3LdcAZYWl9Si6vvxL-qU.woff') format('woff')
+
+*, *:before, *:after
+    box-sizing border-box
+
+*:focus
+    outline none
+
+body
+    -webkit-font-smoothing antialiased
+    -webkit-transform translate3d(0,0,0)
+    font 300 20px 'Lato', sans-serif
+
+p
+    line-height 1.5
+
+ul
+    list-style none
+
+h1, h2, h3
+    margin 0
+    line-height 1
+
+h2
+    font-weight 300
+
+.text-left
+    text-align left
+
+.text-center
+    text-align center
+
+.text-right
+    text-align right
+
+.container
+    align-items center
+    background-size cover
+    display flex
+    flex-direction column
+    justify-content center
+    min-height 100vh
+    overflow hidden
+    padding 5%
+    // -webkit-transform translate3d(0, 0, 0)
+    // -webkit-backface-visibility hidden
+
+.wrap-section
+    max-width 1140px
+
+.wrap-text
+    display inline-block
+    max-width 570px
+    text-align justify
+
+.title-section
+.subtitle-section
+    text-transform uppercase
+    
+.title-section
+    font 700 5em/1 'Oswald'
+
+.subtitle-section
+    font-size 2em
+
+.wrap-section
+    flex 1 1 auto

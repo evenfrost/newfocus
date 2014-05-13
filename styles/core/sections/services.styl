@@ -1,0 +1,31 @@
+.section-services
+    align-items flex-end
+    background-image url('/images/backgrounds/services.jpg')
+
+.list-services
+    padding 0
+    
+    li
+        margin 20px 0
+        padding-right 110px
+        position relative
+
+        &:after
+            display block
+            float right
+            font-size 1.5rem
+            font-weight 700
+            position absolute
+            right 0
+            text-shadow 30px 30px 7px hsla(0, 0%, 0%, 0.25)
+            text-transform uppercase
+            top 0
+
+        &:first-child:after
+            content 'Design'
+
+        &:nth-child(2):after
+            content 'Data'
+
+        &:last-child:after
+            content 'Dev'

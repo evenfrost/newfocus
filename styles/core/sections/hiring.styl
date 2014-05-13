@@ -1,0 +1,30 @@
+.section-hiring
+    align-items flex-start
+    background-color hsla(0, 0%, 0%, .2);
+    color #fff
+    position relative
+
+    &:after
+        background-image url('/images/backgrounds/hiring.jpg')
+        background-size cover
+        content ''
+        height 100%
+        left 0 
+        position absolute
+        top 0
+        width 100%
+        z-index -1
+
+
+.hiring-list
+    padding 0
+
+    li
+        margin 5px 0
+
+    .subtitle-section
+
+        &:before
+            content '—'
+            display inline
+            margin-right 10px

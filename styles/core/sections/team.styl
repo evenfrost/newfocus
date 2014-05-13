@@ -1,0 +1,59 @@
+.section-team
+    background #000
+    color #fff
+
+.list-members
+    display flex
+    flex-wrap wrap
+    justify-content center
+    padding 0
+
+    .member-wrap
+        align-items center
+        display flex
+        margin 20px
+
+    .member-photo
+        height 180px
+        min-width 159px
+        overflow hidden
+        position relative
+
+    .member-info
+        margin 0 20px
+
+    li
+        flex 1 1 50%
+        min-width 340px
+
+        img
+            left 0
+            position absolute
+            top 0
+
+        &:nth-child(odd)
+
+            .member-wrap
+                flex-direction row-reverse
+
+            .member-info
+                text-align right
+
+        &:first-child img
+            top 0px
+
+        &:nth-child(2) img
+            top -180px
+
+        &:nth-child(3) img
+            top -360px
+
+        &:nth-child(4) img
+            top -540px
+
+        &:nth-child(5) img
+            top -720px
+
+        &:nth-child(6) img
+            top -900px
+        
